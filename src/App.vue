@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <Fuck/>
     <Button/>
     <Button/>
   </div>
@@ -8,11 +9,13 @@
 <script>
 
 import Button from './components/Button';
+import Fuck from './components/Text';
 
 export default {
   name: 'App',
   components: {
-    Button
+    Button,
+    Fuck
   }
 }
 </script>
